@@ -1,0 +1,14 @@
+{
+  "name": "create-krap-stack",
+  "version": "0.1.0",
+  "description": "This script will help initial both krapstack template backend and frontend for your application",
+  "main": "index.js",
+  "bin": "index.js",
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {}
+}
