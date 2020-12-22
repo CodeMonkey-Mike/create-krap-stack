@@ -1,14 +1,26 @@
 {
   "name": "create-krap-stack",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "This script will help initial both krapstack template backend and frontend for your application",
   "main": "index.js",
-  "bin": "index.js",
-  "author": "",
+  "bin": "index.js", 
   "license": "MIT",
   "type": "module",
   "scripts": {
     "start": "node ."
   },
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeMonkey-Mike/create-krap-stack"
+  },
+  "keywords": [
+    "krapstack",
+    "create-krap-stack",
+    "krapstack-script"
+  ],
+  "author": "Mike Neder", 
+  "bugs": {
+    "url": "https://github.com/CodeMonkey-Mike/create-krap-stack/issues"
+  },
+  "homepage": "https://github.com/CodeMonkey-Mike/create-krap-stack#readme"
 }
