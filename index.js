@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import { promisify } from 'util';
-import { exec as _exec } from 'child_process';
-const exec = promisify(_exec);
+const util = require('util');
+const child_process = require('child_process');
+const exec = util.promisify(child_process.exec);
 
 const MESSAGE_MISSING_APP_NAME = 'Missing application name!';
 const KRAP_FE_REPOSITORY_URL = 'https://github.com/CodeMonkey-Mike/krap-fe.git';
