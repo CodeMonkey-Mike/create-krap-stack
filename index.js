@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-const util = require('util');
-const child_process = require('child_process');
+// const util = require('util');
+import util from 'util';
+import child_process from 'child_process';
 const exec = util.promisify(child_process.exec);
 
 const MESSAGE_MISSING_APP_NAME = 'Missing application name!';
